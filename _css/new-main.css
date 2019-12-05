@@ -1,0 +1,362 @@
+@import url(blueprint.css);
+
+a {
+	outline: 0;
+	color: #639e46;
+}
+
+h1 {
+	font: 22px "Trebuchet MS", "Lucida Grande", Helvetica, arial, sans-serif;
+	color: #442011;
+}
+h2 {
+	font: 16px "Trebuchet MS", "Lucida Grande", Helvetica, arial, sans-serif;
+	color: #171c5e;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+h3 {
+	color: #639e46;
+	font: 14px "Trebuchet MS", "Lucida Grande", Helvetica, arial, sans-serif;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+fieldset {
+	padding: 0;
+	border: 0;
+}
+.container { position: relative; padding: 0; }
+.lang { position: absolute; top: -10px; right: 80px; }
+.statement {
+	background: #fcb040;
+	color: #fff;
+	clear: both;
+	font-family: "Trebuchet MS", "Lucida Grande", Helvetica, arial, sans-serif;
+	font-size: 24px;
+	padding: 24px;
+}
+.statement p { margin: 0; }
+.statement-btn {
+	color: white;
+	border-radius: 4px;
+	border: 1px solid white;
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 16px;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+.ta-c { text-align: center; }
+.replace {
+	text-indent: -99999px;
+	overflow: hidden;
+}
+.right { float: right; }
+.left { float: left; }
+.clear { clear: both; }
+.upper {
+	text-transform: uppercase;
+}
+.round {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.block { display: block; }
+.alpha img {
+	max-width:  544px;
+}
+
+dd { margin-left: 0;}
+em.date {
+	font: 11px "Trebuchet MS", "Lucida Grande", Helvetica, arial, sans-serif;
+	font-style: italic;
+	color: #442011;
+}
+
+.site-title {
+	border: 0;
+	padding: 0;
+	display: block;
+}
+
+.content {
+  width: 950px;
+  float: left;
+  margin-top: 24px;
+}
+
+#home .content { margin-top: 0; }
+
+.masthead {
+	position: relative;
+}
+	.masthead .nav {
+		font-family: "Trebuchet MS", "Lucida Grande", Helvetica, arial, sans-serif;
+		position: absolute;
+		bottom: 8px;
+		text-align: center;
+		width: 100%;
+	}
+	.masthead .nav ul {
+		font-size: 16px;
+		list-style-type: none;
+		margin: 0;
+		text-align: center;
+	}
+	.masthead .nav li {
+		display: inline-block;
+		padding: 0 8px;
+	}
+	.masthead .nav a {
+		color: #5a361a;
+		text-decoration: none;
+	}
+	.masthead .nav a:hover { color: #f9af50 }
+	.masthead .nav a.current { color: #f9af50 }
+
+/* ===== NEWS ===== */
+#news .entry { margin-bottom: 2.5em; float: left; width: 550px;}
+  #news .entry h2 {
+    font-family: Times, "Times New Roman", Palatino, "Palatino Linotype", serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 4px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #ccc;
+    font-weight: normal;
+    font-style: normal;
+    }
+  #news .entry em.date {
+    color: #414ddd;
+    font-family: Times, "Times New Roman", Palatino, "Palatino Linotype", serif;
+    font-size: 11px;
+    margin-bottom: 1.5em;
+    float: left;
+    width: 100%;
+    }
+  #news .entry em.date span {
+    text-transform: uppercase;
+    font-style: normal;
+    }
+  #news .entry img.left {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.mailinglist {
+	background: url(../images/mailinglist.jpg) no-repeat 0 0;
+	width: 390px;
+	height: 130px;
+	float: left;
+	margin-bottom: 24px;
+}
+	.mailinglist h3 {
+		color: #fff;
+		font: 20px "Trebuchet MS", "Lucida Grande", Helvetica, arial, sans-serif;
+		font-style: italic;
+		text-transform: none;
+		float: left;
+		width:  210px;
+		margin: 28px 0 0 100px;
+	}
+	.mailinglist fieldset {
+		clear: both;
+		margin-left: 20px;
+		float: left;
+		width: 370px;
+	}
+	.mailinglist fieldset input.text {
+		width: 250px;
+		font-size: 15px;
+		padding: 4px;
+		margin: 12px 5px 0 0;
+		float: left;
+	}
+	.mailinglist fieldset input.submit {
+		background: url(../images/sign-up-but.gif) no-repeat 0 0;
+		width: 81px;
+		height: 30px;
+		border: 0;
+		margin-top: 11px;
+	}
+
+.news-list {
+	list-style-type: none;
+	margin: 0;
+}
+	.news-list li {
+		font-family:  Georgia, Palatino, "palatino Linotype", Times, serif;
+		text-transform: uppercase;
+		font-size: 11px;
+		color: #171c5e;
+		border-bottom: 1px solid #d0d0d0;
+	}
+	.news-list em {
+		display: block;
+		color: #8084b5;
+		font-family: Helvetica, arial, sans-serif;
+		font-style:  italic;
+		margin-top: 4px;
+	}
+	.recent .news-list li {
+		width:  180px;
+	}
+	.news-list li a {
+		text-decoration: none;
+		display: block;
+		padding:  8px 0;
+		color: #171c5e;
+	}
+	.news-list a:hover, .news-list a.current {
+		background: #eee;
+	}
+	.news-list li.archives-link {
+		border: 0;
+		text-transform: capitalize;
+		float: right;
+		font-style: italic;
+		font-family: "Trebuchet MS", "Lucida Grande", Helvetica, arial, sans-serif;
+	}
+	.news-list li.archives-link a {
+		padding: 0;
+		margin-top: 8px;
+		text-decoration: underline;
+	}
+	.news-list li.archives-link a:hover {
+		background:  none;
+	}
+
+
+/* ===== HOME ===== */
+#home .alpha .entry br {
+	display: none;
+}
+#home .alpha .entry a {
+	color: #333;
+}
+#home .news-list {
+	margin-top: 66px;
+}
+.video {
+	margin-bottom: 24px;
+}
+.flickr {
+	clear:  both;
+	margin: 24px 0 0 5px;
+	float: left;
+	width: 950px;
+}
+.flickr_badge_image img {
+	padding: 2px;
+	border: 1px solid #ccc;
+	width:  90px;
+	height:  90px;
+	float: left;
+	margin-right: 9px;
+}
+#flickr_badge_image10 {
+	display: none;
+}
+#home li.archives-link a {
+	float: right;
+}
+#home .entry .date { margin-bottom: 10px; }
+#home .entry { margin-bottom: 25px; }
+/* @end  HOME ===== */
+
+/* ===== ABOUT ===== */
+#about .statement {
+	margin-top: 36px;
+}
+#about .beta {
+  font-style: italic;
+  color: #333;
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+  }
+/* @end  ABOUT ===== */
+
+/* ===== NEWS ===== */
+.recent {
+	border-right: 1px solid #d0d0d0;
+}
+.monthly {
+	margin-left: 9px;
+	width: 190px;
+	float:  left;
+}
+	.monthly ul {
+		list-style-type: none;
+		margin: 0;
+	}
+	.monthly h4 {
+		font: 14px "Trebuchet MS", "Lucida Grande", Helvetica, arial, sans-serif;
+		font-style: italic;
+		border-bottom: 1px solid #d0d0d0;
+		margin-bottom: 5px;
+	}
+	.monthly li.archives-link a {
+		text-transform: none;
+		float: right;
+		font-style: italic;
+		margin-top: 14px;
+	}
+	.monthly a {
+		color: #914e32;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 11px;
+		font-family: Gerogia, Palatino, "Palatino Linotype", Times, serif;
+	}
+/* @end  NEWS ===== */
+
+/* ===== CONTACT ===== */
+fieldset.form label {
+  width: 90px;
+  float: left;
+  text-align: right;
+  margin: 12px 10px 0 0;
+}
+fieldset.form input.text {
+  font-size: 16px;
+  width: 400px;
+  }
+fieldset.form textarea {
+  width: 400px;
+  }
+fieldset.form input.submit {
+  width: 81px;
+  height: 31px;
+  border: 0;
+  margin-left: 100px;
+	background: #79BBE5;
+	color: #fff;
+	font: 16px "Trebuchet MS", "Lucida Grande", Helvetica, arial, sans-serif;
+	font-style: italic;
+	float: right;
+	margin-right: 37px;
+  }
+
+#contact .beta { margin-top: 30px;}
+#contact fieldset ul, #contact .beta ul {
+  list-style-type: none;
+  margin: 0 0 1.5em 0;
+  }
+/* @end  CONTACT ===== */
+
+/* ===== SUPPORT ===== */
+#support .beta {
+  background: #9fba75;
+}
+#support .beta h3, #support .beta a { color: #442011; }
+#support .beta div { margin: 20px; }
+/* @end  SUPPORT ===== */
+
+/* ===== FAQ ===== */
+#faq .news-list a {
+  text-transform: none;
+  font-family: helvetica, arial, sans-serif;
+  padding: 7px 5px;
+  }
+/* @end  FAQ ===== */
